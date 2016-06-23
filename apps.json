@@ -1,0 +1,26 @@
+{
+	"apps": [
+		{
+			"databaseURI": "mongodb://johuder:zbox@ds023054.mlab.com:23054/sandbox",
+			"appId": "app",
+			"masterKey": "master",
+			"cloud": "/cloud/main.cloud.code.js",
+			"port": 1337,
+			"endPointAPI": "/parse",
+			"serverURL": "http://localhost:1337/parse",
+			"enableAnonymousUsers": false,
+			"allowClientClassCreation": false
+		},
+		{
+			"databaseURI": "mongodb://johuder:zbox@ds023054.mlab.com:23054/sandbox",
+			"appId": "miapp",
+			"masterKey": "miclave",
+			"cloud": "/cloud/main.cloud.code.js",
+			"port": 1337,
+			"endPointAPI": "/customParse",
+			"serverURL": "http://localhost:1337/customParse",
+			"enableAnonymousUsers": false,
+			"allowClientClassCreation": false
+		}
+	]
+}

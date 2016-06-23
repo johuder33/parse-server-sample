@@ -1,0 +1,19 @@
+{
+  "name": "parse",
+  "version": "1.0.0",
+  "description": "parse server",
+  "main": "app.js",
+  "scripts": {
+    "parse": "node app.js"
+  },
+  "keywords": [
+    "parse",
+    "server"
+  ],
+  "author": "juorder gonzalez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "parse-server": "^2.2.13"
+  }
+}
