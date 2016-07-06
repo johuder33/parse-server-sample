@@ -13,7 +13,12 @@
   "author": "juorder gonzalez",
   "license": "ISC",
   "dependencies": {
+    "currency-formatter": "^1.0.2",
+    "dotenv": "^2.0.0",
     "express": "^4.14.0",
-    "parse-server": "^2.2.13"
+    "moment": "^2.14.1",
+    "nodemailer": "^2.4.2",
+    "parse-server": "^2.2.13",
+    "zimbra-admin-api-js": "ZBoxApp/zimbra-admin-api-js#master"
   }
 }
